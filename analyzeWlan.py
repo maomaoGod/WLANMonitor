@@ -6,6 +6,10 @@ import sys
 import getopt
 import time
 
+# TODO: Smarter handling of changing IPs, unrecognized traffic, new devices addition.
+# TODO: Install as a daemon
+# TODO: Send mail with alerts
+
 def sigint_handler(signal, frame):
 	time.sleep(1)
 	print ""
